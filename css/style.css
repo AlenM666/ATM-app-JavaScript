@@ -1,0 +1,71 @@
+/* Langin Page Css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: balck;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.label1 {
+    font-size: 90px;
+    color: #05dbfc;
+}
+
+input {
+    /*#05dbfc color light blue*/
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #05dbfc;
+    border-radius: 26px 26px 26px 26px;
+    font-weight: 700;
+}
+
+input:hover {
+    cursor: text;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #05dbfc;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 26px 26px 26px 26px;
+}
+
+/*main.html*/
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+th,td{
+    text-align: center;
+    width: 25%;
+}
+
+.menu{
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.chose{
+    margin-bottom: 30px;
+}
+
