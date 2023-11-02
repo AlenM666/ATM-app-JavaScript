@@ -1,8 +1,19 @@
 /* Langin Page Css */
+
+html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
     color: balck;
     display: flex;
@@ -13,17 +24,26 @@ body {
 }
 
 .container{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 1px solid black; */
+    border-radius: 20px 20px 20px 20px;
+    padding: 15%;
+
 }
 
 .label1 {
     font-size: 90px;
-    color: #05dbfc;
+    /* color: #05dbfc; */
+    color: black;
+    margin-bottom: 10%;
 }
 
 input {
@@ -31,24 +51,44 @@ input {
     width: 300px;
     height: 50px;
     text-align: center;
-    border: 2px solid #05dbfc;
+    /* border: 2px solid #05dbfc; */
+    border: 2px solid black;
     border-radius: 26px 26px 26px 26px;
     font-weight: 700;
 }
 
+.username{
+    margin-bottom: 3%;
+}
+
+
 input:hover {
     cursor: text;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 10px #05dbfc;
+    /* box-shadow: 0 0 10px #05dbfc; */
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn1 {
+    width: 18%;
+    height: 30px;
+    margin-top: 5%;
     border: none;
+    background-color: unset;
     border-radius: 26px 26px 26px 26px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+.btn1:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
 
 /*main.html*/
 table{
@@ -63,6 +103,14 @@ th,td{
 .menu{
     margin-top: 40px;
     margin-bottom: 90px;
+    font-size: 50px;
+    border: none;
+    outline: none;
+}
+.menu:hover{
+    /* border: 5px solid lightblue; */
+    border-bottom: 5px solid #00f2ff;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .chose{

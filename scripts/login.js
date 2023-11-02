@@ -5,6 +5,10 @@ class Login {
         this.pin = pin;
     }
 
+    register(){
+
+    }
+
     createTags(){
         const btn = document.getElementById("btn");
         const inputPin = document.getElementById("pin");
@@ -12,8 +16,9 @@ class Login {
         inputPin.placeholder = "Enter Pin: ";
         inputPin.type = 'number';
 
-        btn.onclick = function() {
+        btn.addEventListener('click', function() {
             if(inputPin.value === '4321'){
+
                 let ptag = document.createElement("p");
                 ptag.id = "ptag";
                 ptag.class = "ptag";
@@ -25,6 +30,7 @@ class Login {
                 ptag.style.color = "black";
                 ptag.style.fontSize = "20px";
                 document.body.appendChild(ptag);
+
                 setTimeout(() => {
                     document.body.removeChild(ptag);
                 }, 3000)
@@ -32,10 +38,12 @@ class Login {
                 setTimeout(() => {
                     window.location.href = './pages/main.html';
                 },2000)
+
             }else{
                 console.log("Failed");
             }
-        }
+
+        })
     }
 }
 
