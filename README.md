@@ -4,10 +4,12 @@ ATM app made in Vanilla JavaScript.
 <br><br>
 
 ### App has functions To: 
-<li>Check Balance</li>
-<li>Withdraw</li>
-<li>Deposit</li>
-<li>Exit </li>
+- [ ] Register
+- [x] Login
+- [ ] Check Balance
+- [ ] Withdraw
+- [ ] Deposit
+- [ ] Exit
 
 <br><br>
 The Program Asks you for PIN four your account, if you don't have an accaout already oyu can create one.<br>
