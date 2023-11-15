@@ -4,9 +4,9 @@
 ### ATM app made in JavaScript.
 Check out the live demo --> `https://atm-app-java-script.vercel.app/`
 
+<br>
 
-## Install localy
-
+### Install localy
 To run `npm install` then `npm start`
 
 ### App functions:
