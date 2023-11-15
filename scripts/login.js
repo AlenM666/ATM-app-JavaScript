@@ -14,13 +14,13 @@ class Login {
         const inputPin = document.getElementById("pin");
 
         inputPin.placeholder = "Enter Pin: ";
-        inputPin.type = 'number';
+        inputPin.type = 'password';
 
         btn.addEventListener('click', function() {
             if(inputPin.value === '4321'){
 
                 let ptag = document.createElement("p");
-                ptag.id = "ptag";
+                pndretag.id = "ptag";
                 ptag.class = "ptag";
                 ptag.innerHTML = "Succes";
                 ptag.style.width = "90px";
