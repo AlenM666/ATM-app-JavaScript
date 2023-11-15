@@ -9,6 +9,8 @@ Check out the live demo --> `https://atm-app-java-script.vercel.app/`
 ### Install localy
 To run `npm install` then `npm start`
 
+<br>
+
 ### App functions:
 - [ ] Register
 - [x] Login
