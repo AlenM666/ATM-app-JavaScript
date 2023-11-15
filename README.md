@@ -7,7 +7,7 @@ Check out the live demo --> `https://atm-app-java-script.vercel.app/`
 <br>
 
 ### Install localy
-To run `npm install` then `npm start`
+First copy repo `https://github.com/AlenM666/ATM-app-JavaScript.git` then run `npm install` to install all the dependencies then start site with `npm start`
 
 <br>
 
